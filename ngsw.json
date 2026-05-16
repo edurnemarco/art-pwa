@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1778928860513,
+  "timestamp": 1778929126529,
   "index": "/art-pwa/index.html",
   "assetGroups": [
     {
@@ -17,10 +17,7 @@
         "/art-pwa/polyfills-5CFQRCPP.js",
         "/art-pwa/styles-L3XS6TQW.css"
       ],
-      "patterns": [
-        "https:\\/\\/fonts\\.googleapis\\.com\\/.*",
-        "https:\\/\\/fonts\\.gstatic\\.com\\/.*"
-      ]
+      "patterns": []
     },
     {
       "name": "assets",
