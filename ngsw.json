@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1778929375192,
+  "timestamp": 1778929598339,
   "index": "/art-pwa/index.html",
   "assetGroups": [
     {
@@ -74,7 +74,7 @@
     "/art-pwa/icons/favicon.svg": "9921832dafcbbf5f3993505d340915e238d3f90b",
     "/art-pwa/icons/web-app-manifest-192x192.png": "fbed56129449ee6d985400fbfd3371d604bca995",
     "/art-pwa/icons/web-app-manifest-512x512.png": "c53885be88e31cf95604b210b28b16d09314555c",
-    "/art-pwa/index.html": "46af89cf16cf768481692f7f818c25a1f29d4b65",
+    "/art-pwa/index.html": "d64a0e22a37b9fcc4f3772bd831eea13790151d1",
     "/art-pwa/main-HDV5KS44.js": "add67efb9689084465cf3cd0cb80ec4411717f42",
     "/art-pwa/manifest.webmanifest": "bddc228dd8723111d8b89d40b91c23e30b59f1b2",
     "/art-pwa/polyfills-5CFQRCPP.js": "f2241e9a25858f895ce299d15f6f22e849e2fd72",
