@@ -1,0 +1,105 @@
+{
+  "configVersion": 1,
+  "timestamp": 1778928860513,
+  "index": "/art-pwa/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/art-pwa/index.html",
+        "/art-pwa/main-HDV5KS44.js",
+        "/art-pwa/manifest.webmanifest",
+        "/art-pwa/polyfills-5CFQRCPP.js",
+        "/art-pwa/styles-L3XS6TQW.css"
+      ],
+      "patterns": [
+        "https:\\/\\/fonts\\.googleapis\\.com\\/.*",
+        "https:\\/\\/fonts\\.gstatic\\.com\\/.*"
+      ]
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/art-pwa/favicon.png",
+        "/art-pwa/icons/apple-touch-icon.png",
+        "/art-pwa/icons/favicon-96x96.png",
+        "/art-pwa/icons/favicon.svg",
+        "/art-pwa/icons/web-app-manifest-192x192.png",
+        "/art-pwa/icons/web-app-manifest-512x512.png"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [
+    {
+      "name": "artworks-api",
+      "patterns": [
+        "https:\\/\\/api\\.artic\\.edu\\/.*"
+      ],
+      "strategy": "freshness",
+      "maxSize": 100,
+      "maxAge": 3600000,
+      "timeoutMs": 2000,
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "version": 1
+    },
+    {
+      "name": "artworks-images",
+      "patterns": [
+        "https:\\/\\/www\\.artic\\.edu\\/iiif\\/.*"
+      ],
+      "strategy": "performance",
+      "maxSize": 50,
+      "maxAge": 86400000,
+      "timeoutMs": 3000,
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "version": 1
+    }
+  ],
+  "hashTable": {
+    "/art-pwa/favicon.png": "cce7d6228917bfb5d776fe6460702cf07501c144",
+    "/art-pwa/icons/apple-touch-icon.png": "5d6dc8b077e5e26794e7fd09c4bef1d273f42a17",
+    "/art-pwa/icons/favicon-96x96.png": "24ad972154d16763816ebb77a1737bb95173bc5d",
+    "/art-pwa/icons/favicon.svg": "9921832dafcbbf5f3993505d340915e238d3f90b",
+    "/art-pwa/icons/web-app-manifest-192x192.png": "fbed56129449ee6d985400fbfd3371d604bca995",
+    "/art-pwa/icons/web-app-manifest-512x512.png": "c53885be88e31cf95604b210b28b16d09314555c",
+    "/art-pwa/index.html": "cce8b4731063ee5927dbf502c0ee309bc0a62898",
+    "/art-pwa/main-HDV5KS44.js": "add67efb9689084465cf3cd0cb80ec4411717f42",
+    "/art-pwa/manifest.webmanifest": "bddc228dd8723111d8b89d40b91c23e30b59f1b2",
+    "/art-pwa/polyfills-5CFQRCPP.js": "f2241e9a25858f895ce299d15f6f22e849e2fd72",
+    "/art-pwa/styles-L3XS6TQW.css": "2266a7c8195e3c5d150fbb7e9d129ca577086a4d"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ],
+  "navigationRequestStrategy": "performance"
+}
